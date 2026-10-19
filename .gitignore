@@ -1,0 +1,14 @@
+# Local provider plugins and configuration state
+.terraform/
+.terraform.lock.hcl
+
+# Terraform state files (contains sensitive data and local execution state)
+*.tfstate
+*.tfstate.backup
+
+# Local created resource files (e.g., from the local provider lab)
+welcome.txt
+
+# Crash logs or temporary plan files
+*.tfplan
+crash.log
